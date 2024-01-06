@@ -3,11 +3,12 @@
 
 #define m_iNumTKs 478
 
+// This is a simple plugin that resets the TeamKills counter and does not give the server a reason to kick the killer
+// WhatsApp +79101483016
+
 public plugin_init()
 {
-	register_plugin("DOD TK Antikick","0.0","America")
-	// WhatsApp +79101483016
-	// This is a simple plugin that resets the TeamKills counter and does not give the server a reason to kick the killer
+	register_plugin("DOD TK Antikick","0.0","America")	
 }   
 
 public client_death(killer,victim,wpnindex,hitplace,TK)
